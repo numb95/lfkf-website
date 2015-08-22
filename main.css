@@ -1,0 +1,54 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+
+
+.affix {
+    top: 0;
+    width: 100%;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    background-color: #9d4dff;
+    border-color: #9d4dff;
+    top:0;
+    width: 100%;
+    z-index: 9999 !important;
+/*
+*/
+}
+}
+.navbar {
+    margin-bottom: 0px;
+}
+
+
+.affix ~ .container-fluid {
+    position: relative;
+    top: 50px;
+}
+.affix a {
+    color: #fff !important;
+    padding: 15px !important;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.affix-top a {
+    padding: 25px !important;
+}
+.affix + .container-fluid {
+    padding-top: 95px;
+}
+#section1 {padding-top:50px;height:500px;color: #fff; background-color: #cb73bb;}
+#section2 {padding-top:50px;height:500px;color: #fff; background-color: #684184;}
+#section3 {padding-top:50px;height:500px;color: #fff; background-color: #f3c2cb;}
+#section4 {padding-top:50px;height:500px;color: #fff; background-color: #bf5caa;}
+#section5 {padding-top:50px;height:500px;color: #fff; background-color: #eadada;}
+.intro-text {
+    font-family:'Droid Arabic Kufi';
+    font-size: 90px;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top: 15%;
+}
+.nav.navbar-nav.navbar-right a{
+    font-family: "Droid Arabic Naskh";
+}
